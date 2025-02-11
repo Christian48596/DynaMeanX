@@ -1,0 +1,6 @@
+# Parameters for the discretization tool
+# See R. Zitko, T. Prushcke, Phys. Rev. B 79, 085106 (2009) and
+# R. Zitko, Comput. Phys. Comm. 180, 1271 (2009) for details!
+[param]
+xmax=20
+dos=Delta.dat

@@ -1,0 +1,47 @@
+[extra]
+U=2
+epsilon=-1
+
+[param]
+symtype=QS
+Lambda=3
+Tmin=1e-8
+keepmin=200
+keepenergy=8.0
+keep=10000
+
+band=asymode
+dos=./Delta.dat
+bandrescale=10
+
+discretization=Z
+Nz=4
+
+model=./model.m
+
+ops=A_d self_d n_d
+specd=A_d-A_d self_d-A_d
+
+fdm=true
+
+# Broadening is performed by an external tool
+broaden_max=10
+broaden_ratio=1.01
+broaden_min=1e-6
+broaden_alpha=0.4
+broaden_gamma=0.2
+bins=300
+broaden=false
+savebins=true
+
+eps_delta = 1e-4
+eps_n = 1e-4
+n_target = 0.8
+mu_min=-10.0
+mu_max=10.0
+max_mu_iter = 100
+
+T=0.02
+overwrite=true
+#mixing_method=broyden
+#mixing_parameter=0.1
