@@ -26,7 +26,7 @@ DDDDDDDDDDDDD              y:::::y             nnnnnn    nnnnnn  aaaaaaaaaa  aaa
                        y:::::y                                                                                                                                                            
                       yyyyyyy                                                                                                                                                             
                                                                                                                                                
-                                                    Prof. Dr. Christian Tantardini   christiantantardini@ymail.com                                                            
+                                                        Dr. Christian Tantardini   christiantantardini@ymail.com                                                            
     """
 
     print(DynaMeanX)
