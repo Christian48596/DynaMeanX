@@ -1,4 +1,5 @@
-# DynaMeanX DOI 10.5281/zenodo.14851936
+# DynaMeanX 
+# DOI 10.5281/zenodo.14851936
 This repository contains a set of Python modules and a `main.py` script to perform a DMFT (Dynamical Mean-Field Theory) calculation using NRG-based solvers and post-processing steps. It includes optional mixing methods to enhance convergence and a comprehensive logging system for monitoring and debugging.
 
 ## Table of Contents
